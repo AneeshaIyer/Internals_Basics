@@ -1,6 +1,6 @@
 # Internals_Basics
 MLOps Lab CIE Submission
-# ⚡ PowerGrid Energy Prediction — MLOps Pipeline
+# ⚡ PowerGrid Energy Prediction - MLOps Pipeline
 
 **Course:** MLOps (24AM6AEMLO)  
 **College:** BMS College of Engineering  
