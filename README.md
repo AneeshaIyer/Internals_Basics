@@ -10,7 +10,7 @@ MLOps Lab CIE Submission
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project builds an end-to-end MLOps pipeline to predict energy consumption (kWh) for commercial buildings managed by PowerGrid.
 
@@ -18,28 +18,28 @@ The goal is to support load balancing by accurately forecasting electricity dema
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Feature | Description |
 |---|---|
-| `temperature_c` | Outdoor temperature (15–45) |
-| `building_sqm` | Building area in square meters (50–500) |
-| `occupancy_pct` | Occupancy percentage (20–100) |
+| `temperature_c` | Outdoor temperature (15-45) |
+| `building_sqm` | Building area in square meters (50-500) |
+| `occupancy_pct` | Occupancy percentage (20-100) |
 | `is_weekday` | Whether it is a weekday (0 or 1) |
-| `energy_kwh` | Target — energy consumption |
+| `energy_kwh` | Target - energy consumption |
 
 ---
 
-## 🚀 Tasks
+## Tasks
 
-### Task 1 — Experiment Tracking & Model Comparison
+### Task 1 - Experiment Tracking & Model Comparison
 - Trained RandomForest and GradientBoosting models
 - Logged MAE, RMSE, R², MAPE using MLflow
 - Best model selected based on RMSE
 
 ---
 
-### Task 2 — Hyperparameter Tuning
+### Task 2 - Hyperparameter Tuning
 - Grid search over RandomForest parameters:
   - n_estimators: [100, 200, 300]
   - max_depth: [3, 7, 15]
@@ -49,14 +49,14 @@ The goal is to support load balancing by accurately forecasting electricity dema
 
 ---
 
-### Task 3 — Docker Packaging
+### Task 3 - Docker Packaging
 - Built Docker image: `powergrid-predictor:v1`
 - Created CLI-based prediction system using argparse
 - Model loaded inside container for inference
 
 ---
 
-### Task 4 — Retraining Pipeline
+### Task 4 - Retraining Pipeline
 - Combined original dataset + new incoming data
 - Retrained champion model type from Task 1
 - Compared performance on same test set
@@ -64,7 +64,7 @@ The goal is to support load balancing by accurately forecasting electricity dema
 
 ---
 
-## 📁 Results
+## Results
 
 | Task | Output File |
 |---|---|
@@ -75,7 +75,7 @@ The goal is to support load balancing by accurately forecasting electricity dema
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ```bash
 cd MLOps_Lab_CIE
