@@ -1,0 +1,11 @@
+{
+  "original_data_rows": 25,
+  "new_data_rows": 20,
+  "combined_data_rows": 45,
+  "champion_mae": 66.3212,
+  "retrained_mae": 33.6794,
+  "improvement": 32.6418,
+  "min_improvement_threshold": 0.3,
+  "action": "promoted",
+  "comparison_metric": "mae"
+}
