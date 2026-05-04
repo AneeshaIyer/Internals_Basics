@@ -1,0 +1,12 @@
+{
+  "image_name": "powergrid-predictor",
+  "image_tag": "v1",
+  "base_image": "python:3.10-slim",
+  "test_input": {
+    "temperature_c": 33.9,
+    "building_sqm": 327.1,
+    "occupancy_pct": 45.9,
+    "is_weekday": 1
+  },
+  "prediction": 408.4666
+}
