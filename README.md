@@ -4,7 +4,7 @@ MLOps Lab CIE Submission
 
 **Course:** MLOps (24AM6AEMLO)  
 **College:** BMS College of Engineering  
-**Semester:** VI — 2026 Even  
+**Semester:** VI - 2026 Even  
 **Name:** Aneesha Manjunath Iyer
 **USN:** 1BM23AI021
 
