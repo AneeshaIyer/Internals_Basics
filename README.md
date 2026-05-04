@@ -30,6 +30,19 @@ The goal is to support load balancing by accurately forecasting electricity dema
 
 ---
 
+## Key Features
+
+- End-to-end MLOps pipeline implementation
+- Experiment tracking using MLflow
+- Model comparison using multiple regression algorithms
+- Hyperparameter tuning using GridSearchCV
+- Dockerized ML inference pipeline
+- CLI-based prediction system using argparse
+- Automated retraining pipeline with model promotion logic
+- Performance-based model selection using MAE
+
+---
+
 ## Tasks
 
 ### Task 1 - Experiment Tracking & Model Comparison
@@ -72,6 +85,17 @@ The goal is to support load balancing by accurately forecasting electricity dema
 | Task 2 | `results/step2_s2.json` |
 | Task 3 | `results/step3_s3.json` |
 | Task 4 | `results/step4_s8.json` |
+
+---
+
+## Tech Stack
+
+- Python 3.x
+- scikit-learn
+- pandas
+- numpy
+- MLflow
+- Docker
 
 ---
 
